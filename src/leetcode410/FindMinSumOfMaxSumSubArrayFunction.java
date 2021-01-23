@@ -1,7 +1,8 @@
 package leetcode410;
 
 public class FindMinSumOfMaxSumSubArrayFunction {
-	// O(n^2 * m) dp solution which is not fast at all, there is a binary search way but hard to understand
+	// O(n^2 * m) 
+	// dp solution which is not fast at all
 	public int splitArray(int[] nums, int m) {
         int[][] dp = new int[m][nums.length];
         
